@@ -1,0 +1,1 @@
+echo buildInfo.property.msg=$(curl "http://localhost:9595/jenkins/job/$JOB_NAME/$BUILD_NUMBER/api/xml?xpath=//changeSet/item/msg&wrapper=messages") > data.properties
